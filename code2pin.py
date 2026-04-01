@@ -1,6 +1,10 @@
 import hashlib
 
+# XIANSH
 code = "ABCDE-FGHIJ-KLMNO-PQRST-UVWXY"
+code = "COXED-IDIOT-APPLE-NUTSY-EHHHH"
+code = "AAAX-AAAX-AAAX-AAAX-AAAX-AAAX-A"
+code = "XXXXX-IIIII-AAAAA-NSSSS-HHHHH"
 
 def transform(inp: str):
 	assert len(inp) >= 24
@@ -15,6 +19,7 @@ def transform(inp: str):
 
 code = "".join(code.split("-"))
 encoded = f"z{transform(code)}rh".encode("utf-8")
+print(encoded)
 md5 = hashlib.md5(encoded).digest()
 
 pin = bytearray(md5[0:8])[::-1].hex().upper()
