@@ -15,4 +15,4 @@ Made as of version `6.48`.
 
 Have fun :)
 
-![img](https://bin.escartem.moe/2026/03/31/2wkFNUlCW5.png)
+![img](https://bin.escartem.moe/2026/04/01/Liodgus0yl.png)
