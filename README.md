@@ -1,4 +1,4 @@
-# geidFree
+# geidFree (imported from https://git.escartem.moe/Escartem/geidFree)
 
 bypass license in geid
 
